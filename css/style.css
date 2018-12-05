@@ -1031,7 +1031,7 @@ padding-top: 50px; /* ОТСТУПЫ В КОНТАКТНОЙ ФОРМЕ */
 width: 100%;
 display: block;
 background: #ffffff;
-border: 0px solid #ab977c; /* РАМКИ КОНТАКТНОЙ ФОРМЫ */
+border: 1px solid #d0b78d; /* РАМКИ КОНТАКТНОЙ ФОРМЫ */
 height: 50px;
 }
 .contact-form .input-group textarea.form-control{
@@ -1177,38 +1177,30 @@ font-weight: 300;
 color:#c1a069 ;
 }
 .colour-1 img {
-	max-height: 200px;
-	max-width: 100%;
-	margin: 0 auto;
-	display: block;
+max-height: 200px;
+max-width: 100%;
+margin: 0 auto;
+display: block;
 border-radius:0px;
-	border: 0px solid #c5d3d3;
-	}
-
+border: 0px solid #c5d3d3;
+}
 .image1 { /*УВЕЛИЧЕНИЕ КАРТИНКИ В FAQ  */
- overflow:hidden;
- max-height: 200px;
-	max-width: 100%;
-	margin: 0 auto;
-	display: block;
-
- }
-
+overflow:hidden;
+max-height: 200px;
+max-width: 100%;
+margin: 0 auto;
+display: block;
+}
 .image1 img {
- -moz-transition: all 1s ease-out;
- -o-transition: all 1s ease-out;
- -webkit-transition: all 1s ease-out;
- 
- }
- 
+-moz-transition: all 1s ease-out;
+-o-transition: all 1s ease-out;
+-webkit-transition: all 1s ease-out;
+}
 .image1 img:hover{
- -webkit-transform: scale(1.5);
- -moz-transform: scale(1.2);
- -o-transform: scale(1.2);
- 
- }	
-
-
+-webkit-transform: scale(1.5);
+-moz-transform: scale(1.2);
+-o-transform: scale(1.2);
+}	
 /* КОНЕЦ СЕКЦИИ FAQ */
 /* КНОПКА НАВЕРХ */
 a.back-to-top {
@@ -1597,16 +1589,11 @@ z-index: 999;
 }
 }
 /* ДОПОЛНЕНИЯ MOBIL */
-
 @media (max-width: 950px){
 .btn-circle {
-
 margin-top: -7px;
-
 }	
-	
 }
-
 @media (max-width: 415px){ /* ИЗМЕНЕНИЕ РАЗМЕРА ПОДЧЕРКИВАНИЯ */
 .d8 h1:after {
 content: "";
@@ -1616,10 +1603,8 @@ left: 35%;
 margin-left: -10%;
 width: 50%;
 height: 1px;
-
 }		
 }
-
 @media (max-width: 1023px){ 
 .navbar-header img{ /*УПРАВЛЕНИЕ ЛОГОТИПОМ  */
 border: 0px solid red;
